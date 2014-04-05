@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDXTutorial1", "SharpDXTutorial1\SharpDXTutorial1.csproj", "{76861B07-DF36-4A49-9982-517412D5A420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDXTutorial2", "SharpDXTutorial2\SharpDXTutorial2.csproj", "{76861B07-DF36-4A49-9982-517412D5A421}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{76861B07-DF36-4A49-9982-517412D5A420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76861B07-DF36-4A49-9982-517412D5A420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76861B07-DF36-4A49-9982-517412D5A420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76861B07-DF36-4A49-9982-517412D5A421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76861B07-DF36-4A49-9982-517412D5A421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76861B07-DF36-4A49-9982-517412D5A421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76861B07-DF36-4A49-9982-517412D5A421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
