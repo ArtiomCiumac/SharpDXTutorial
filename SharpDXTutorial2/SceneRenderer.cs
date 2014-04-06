@@ -28,6 +28,14 @@ namespace SharpDXTutorial2
         public SceneRenderer(Game game)
             : base(game)
         {
+            // this game system has something to draw - enable drawing by default
+            // this can be disabled to make objects drawn by this system disappear
+            Visible = true;
+
+            // this game system has logic that needs to be updated - enable update by default
+            // this can be disabled to simulate a "pause" in logic update
+            Enabled = true;
+
             // add the system itself to the systems list, so that it will get initialized and processed properly
             // this can be done after game initialization - the Game class supports adding and removing of game systems dynamically
             game.GameSystems.Add(this);
@@ -39,14 +47,6 @@ namespace SharpDXTutorial2
         public override void Initialize()
         {
             base.Initialize();
-
-            // this game system has something to draw - enable drawing by default
-            // this can be disabled to make objects drawn by this system disappear
-            Visible = true;
-
-            // this game system has logic that needs to be updated - enable update by default
-            // this can be disabled to simulate a "pause" in logic update
-            Enabled = true;
 
             // get the camera service from service registry
             _cameraService = Services.GetService<ICameraService>();
